@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
 
 """Main module."""
+import os
+import sys
+sys.path.insert(0, os.getcwd())
+
 import pyximport
 
 import io
@@ -18,7 +22,7 @@ from scipy.sparse.linalg import svds
 
 from src.train.count_skipgrams import count_skipgrams
 
-
+print("here we go")
 class SVDAlgebra:
 
     def __init__(self, corpus_dir):
