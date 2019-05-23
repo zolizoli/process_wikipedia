@@ -16,7 +16,7 @@ from nltk.util import skipgrams
 from scipy.spatial.distance import cosine
 from scipy.sparse.linalg import svds
 
-from .src.train.count_skipgrams import count_skipgrams
+from src.train.count_skipgrams import count_skipgrams
 
 
 class SVDAlgebra:
